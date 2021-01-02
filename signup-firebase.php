@@ -8,9 +8,8 @@
                 <div class="inputwrapper">
                     <label for="name" class="newline">Name</label>
                     <input type="text" name="Name" id="name" placeholder="Enter Your Name">
-                </div>
+                
 
-                <div class="inputwrapper">
                     <label for="email" class="newline">Email</label>
                     <input type="email" name="Email" id="email" placeholder="Enter Your Email" required="required">
                 </div>
