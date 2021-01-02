@@ -140,14 +140,7 @@
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyCcw33G9-GC4Ienz2nLtvpEPFsO9Oxk6WM",
-    authDomain: "phpfirebaseweb.firebaseapp.com",
-    databaseURL: "https://phpfirebaseweb.firebaseio.com",
-    projectId: "phpfirebaseweb",
-    storageBucket: "gs://phpfirebaseweb.appspot.com/",
-    messagingSenderId: "825489227557",
-    appId: "1:825489227557:web:f9e0589632003b37aa64cc",
-    measurementId: "G-T2RT8P58ZT"
+    
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
