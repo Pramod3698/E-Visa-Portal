@@ -1,0 +1,65 @@
+value="<?php if(isset($_POST['name'])) { echo ($_POST['name']);}?>"
+
+
+CREATE TABLE users (
+id int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+name varchar(25) NOT NULL,
+email varchar(25) NOT NULL,
+password varchar(255) NOT NULL,
+phone varchar(15) NOT NULL
+);
+
+evisa_status int(2) NOT NULL,
+
+
+CREATE TABLE applicantdetails (
+applicantid int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+name varchar(25) NOT NULL,
+dob date NOT NULL,
+gender varchar(7) NOT NULL,
+email varchar(25) NOT NULL,
+nationality varchar(25) NOT NULL,
+country varchar(25) NOT NULL,
+state varchar(25) NOT NULL,
+city varchar(25) NOT NULL,
+mobile varchar(15) NOT NULL
+);
+
+uid int(11)
+
+
+
+CREATE TABLE passportdetails (
+passportid int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+passporttype varchar(25) NOT NULL,
+passportno varchar(25) NOT NULL,
+placeofissue varchar(25) NOT NULL,
+dateofissue date NOT NULL,
+dateofexpiry date NOT NULL
+);
+
+CREATE TABLE addressdetails (
+addressid int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+houseno varchar(25) NOT NULL,
+city varchar(25) NOT NULL,
+state varchar(25) NOT NULL,
+country varchar(25) NOT NULL,
+pincode varchar(8) NOT NULL,
+mobile varchar(15) NOT NULL,
+email varchar(25) NOT NULL,
+fathername varchar(25) NOT NULL,
+mothername varchar(25) NOT NULL
+);
+
+
+CREATE TABLE visadetails (
+visaid int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+visatype varchar(25) NOT NULL,
+countryvisit varchar(25) NOT NULL,
+airportarrival varchar(25) NOT NULL,
+arrivaldate date NOT NULL,
+visaduration int(5) NOT NULL,
+airportdeparture varchar(25) NOT NULL,
+departuredate date NOT NULL
+);
+
